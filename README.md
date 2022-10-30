@@ -1,5 +1,6 @@
 # React app sample for workflow graph
 
+![dagsample](public/dagsample.png)
 
 ## Prerequsite 
 

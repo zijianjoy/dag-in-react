@@ -2,7 +2,6 @@ import { DOMAttributes } from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
 
-
 // https://javascript.info/custom-elements
 function App() {
   return (
@@ -15,6 +14,8 @@ function App() {
         }}
       >
         <Link to="/graph">Graph</Link>
+        <div></div>
+        <Link to="/custom_graph">Custom Graph</Link>
       </nav>
     </div>
   );

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Routes, Route } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import { Graph } from './Graph/Graph';
+import { CustomGraph } from './Graph/CustomGraph';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,6 +19,8 @@ root.render(
       <Route path="/" element={<App />}>
       </Route>
       <Route path="/graph" element={<Graph />}>
+      </Route>
+      <Route path="/custom_graph" element={<CustomGraph />}>
       </Route>
     </Routes>
     </BrowserRouter>
